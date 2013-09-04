@@ -258,7 +258,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0005D5DE161FDF23007DD837 /* iOS Tests App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Tests App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0005D5DE161FDF23007DD837 /* BlocksKit iOS Tests App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BlocksKit iOS Tests App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0005D5E8161FDF23007DD837 /* iOS Tests App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS Tests App-Info.plist"; sourceTree = "<group>"; };
 		0005D5EE161FDF23007DD837 /* iOS Tests App-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS Tests App-Prefix.pch"; sourceTree = "<group>"; };
 		00D28AC614AAC43E00ECB62C /* UIPopoverController+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPopoverController+BlocksKit.h"; sourceTree = "<group>"; };
@@ -341,11 +341,11 @@
 		6CF22BF2161EACBD002FD317 /* trampoline.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = trampoline.S; sourceTree = "<group>"; };
 		6CF22BF4161EACBD002FD317 /* darwin.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = darwin.S; sourceTree = "<group>"; };
 		6CF22BF5161EACBD002FD317 /* ffi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ffi.c; sourceTree = "<group>"; };
-		6CF22C95161EAFB8002FD317 /* OS X Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OS X Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CF22C95161EAFB8002FD317 /* BlocksKit OS X Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BlocksKit OS X Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CF22C96161EAFB8002FD317 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		6CF22CA0161EAFB8002FD317 /* OS X Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OS X Tests-Info.plist"; sourceTree = "<group>"; };
 		6CF22CA7161EAFB8002FD317 /* OS X Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OS X Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6CF22CB0161EB048002FD317 /* iOS Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CF22CB0161EB048002FD317 /* BlocksKit iOS Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BlocksKit iOS Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CF22CB1161EB048002FD317 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		6CF22CB9161EB048002FD317 /* OS X Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OS X Tests-Info.plist"; sourceTree = "<group>"; };
 		6CF22CC0161EB048002FD317 /* iOS Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS Tests-Prefix.pch"; sourceTree = "<group>"; };
@@ -544,9 +544,9 @@
 			isa = PBXGroup;
 			children = (
 				6CC40A751447BB1400E47595 /* BlocksKit.framework */,
-				6CF22C95161EAFB8002FD317 /* OS X Tests.octest */,
-				6CF22CB0161EB048002FD317 /* iOS Tests.octest */,
-				0005D5DE161FDF23007DD837 /* iOS Tests App.app */,
+				6CF22C95161EAFB8002FD317 /* BlocksKit OS X Tests.octest */,
+				6CF22CB0161EB048002FD317 /* BlocksKit iOS Tests.octest */,
+				0005D5DE161FDF23007DD837 /* BlocksKit iOS Tests App.app */,
 				7BE3719217D4364000F20298 /* BlocksKit Mac Demo.app */,
 			);
 			name = Products;
@@ -936,9 +936,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0005D5DD161FDF23007DD837 /* iOS Tests App */ = {
+		0005D5DD161FDF23007DD837 /* BlocksKit iOS Tests App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0005D5F8161FDF24007DD837 /* Build configuration list for PBXNativeTarget "iOS Tests App" */;
+			buildConfigurationList = 0005D5F8161FDF24007DD837 /* Build configuration list for PBXNativeTarget "BlocksKit iOS Tests App" */;
 			buildPhases = (
 				0005D5DA161FDF23007DD837 /* Sources */,
 				0005D5DB161FDF23007DD837 /* Frameworks */,
@@ -948,9 +948,9 @@
 			);
 			dependencies = (
 			);
-			name = "iOS Tests App";
+			name = "BlocksKit iOS Tests App";
 			productName = "iOS Tests App";
-			productReference = 0005D5DE161FDF23007DD837 /* iOS Tests App.app */;
+			productReference = 0005D5DE161FDF23007DD837 /* BlocksKit iOS Tests App.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6C3DBF8C1382F1BA00E6C9AA /* libBlocksKit */ = {
@@ -988,9 +988,9 @@
 			productReference = 6CC40A751447BB1400E47595 /* BlocksKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		6CF22C94161EAFB8002FD317 /* OS X Tests */ = {
+		6CF22C94161EAFB8002FD317 /* BlocksKit OS X Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6CF22CA8161EAFB8002FD317 /* Build configuration list for PBXNativeTarget "OS X Tests" */;
+			buildConfigurationList = 6CF22CA8161EAFB8002FD317 /* Build configuration list for PBXNativeTarget "BlocksKit OS X Tests" */;
 			buildPhases = (
 				6CF22C90161EAFB8002FD317 /* Sources */,
 				6CF22C91161EAFB8002FD317 /* Frameworks */,
@@ -1002,14 +1002,14 @@
 			dependencies = (
 				6CF22CC7161EB13A002FD317 /* PBXTargetDependency */,
 			);
-			name = "OS X Tests";
+			name = "BlocksKit OS X Tests";
 			productName = "OS X Tests";
-			productReference = 6CF22C95161EAFB8002FD317 /* OS X Tests.octest */;
+			productReference = 6CF22C95161EAFB8002FD317 /* BlocksKit OS X Tests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
-		6CF22CAF161EB048002FD317 /* iOS Tests */ = {
+		6CF22CAF161EB048002FD317 /* BlocksKit iOS Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6CF22CC1161EB048002FD317 /* Build configuration list for PBXNativeTarget "iOS Tests" */;
+			buildConfigurationList = 6CF22CC1161EB048002FD317 /* Build configuration list for PBXNativeTarget "BlocksKit iOS Tests" */;
 			buildPhases = (
 				6CF22CAB161EB048002FD317 /* Sources */,
 				6CF22CAC161EB048002FD317 /* Frameworks */,
@@ -1022,9 +1022,9 @@
 				6CF22CDA161EB198002FD317 /* PBXTargetDependency */,
 				0005D5FC161FDF3C007DD837 /* PBXTargetDependency */,
 			);
-			name = "iOS Tests";
+			name = "BlocksKit iOS Tests";
 			productName = "iOS Tests";
-			productReference = 6CF22CB0161EB048002FD317 /* iOS Tests.octest */;
+			productReference = 6CF22CB0161EB048002FD317 /* BlocksKit iOS Tests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 		7BE3719117D4364000F20298 /* BlocksKit Mac Demo */ = {
@@ -1069,9 +1069,9 @@
 			targets = (
 				6C3DBF8C1382F1BA00E6C9AA /* libBlocksKit */,
 				6CC40A741447BB1400E47595 /* BlocksKit */,
-				6CF22CAF161EB048002FD317 /* iOS Tests */,
-				6CF22C94161EAFB8002FD317 /* OS X Tests */,
-				0005D5DD161FDF23007DD837 /* iOS Tests App */,
+				6CF22CAF161EB048002FD317 /* BlocksKit iOS Tests */,
+				6CF22C94161EAFB8002FD317 /* BlocksKit OS X Tests */,
+				0005D5DD161FDF23007DD837 /* BlocksKit iOS Tests App */,
 				7BE3719117D4364000F20298 /* BlocksKit Mac Demo */,
 			);
 		};
@@ -1310,7 +1310,7 @@
 /* Begin PBXTargetDependency section */
 		0005D5FC161FDF3C007DD837 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0005D5DD161FDF23007DD837 /* iOS Tests App */;
+			target = 0005D5DD161FDF23007DD837 /* BlocksKit iOS Tests App */;
 			targetProxy = 0005D5FB161FDF3C007DD837 /* PBXContainerItemProxy */;
 		};
 		6CF22CC7161EB13A002FD317 /* PBXTargetDependency */ = {
@@ -1492,6 +1492,7 @@
 		6CC40A821447BB1400E47595 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_CURRENT_VERSION = 1.8.2;
 				FRAMEWORK_VERSION = A;
@@ -1507,12 +1508,14 @@
 		6CC40A831447BB1400E47595 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_CURRENT_VERSION = 1.8.2;
 				FRAMEWORK_VERSION = A;
 				GCC_DYNAMIC_NO_PIC = NO;
 				INFOPLIST_FILE = "BlocksKit/BlocksKit-Info.plist";
 				INSTALL_PATH = "@executable_path/../Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = framework;
 			};
@@ -1521,6 +1524,7 @@
 		6CF22CA9161EAFB8002FD317 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
@@ -1537,6 +1541,7 @@
 		6CF22CAA161EAFB8002FD317 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
@@ -1544,6 +1549,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/OS X Tests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/OS X Tests-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = octest;
@@ -1637,7 +1643,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0005D5F8161FDF24007DD837 /* Build configuration list for PBXNativeTarget "iOS Tests App" */ = {
+		0005D5F8161FDF24007DD837 /* Build configuration list for PBXNativeTarget "BlocksKit iOS Tests App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0005D5F9161FDF24007DD837 /* Debug */,
@@ -1673,7 +1679,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6CF22CA8161EAFB8002FD317 /* Build configuration list for PBXNativeTarget "OS X Tests" */ = {
+		6CF22CA8161EAFB8002FD317 /* Build configuration list for PBXNativeTarget "BlocksKit OS X Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6CF22CA9161EAFB8002FD317 /* Debug */,
@@ -1682,7 +1688,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6CF22CC1161EB048002FD317 /* Build configuration list for PBXNativeTarget "iOS Tests" */ = {
+		6CF22CC1161EB048002FD317 /* Build configuration list for PBXNativeTarget "BlocksKit iOS Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6CF22CC2161EB048002FD317 /* Debug */,

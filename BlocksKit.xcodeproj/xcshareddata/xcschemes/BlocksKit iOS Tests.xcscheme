@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0500"
+   LastUpgradeVersion = "0460"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -16,9 +16,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6CF22C94161EAFB8002FD317"
-               BuildableName = "OS X Tests.octest"
-               BlueprintName = "OS X Tests"
+               BlueprintIdentifier = "6CF22CAF161EB048002FD317"
+               BuildableName = "BlocksKit iOS Tests.octest"
+               BlueprintName = "BlocksKit iOS Tests"
                ReferencedContainer = "container:BlocksKit.xcodeproj">
             </BuildableReference>
          </TestableReference>
